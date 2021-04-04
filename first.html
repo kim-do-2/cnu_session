@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNU 1주차 세션</title>
+    <style>
+        .name_cnu {
+            color:red;
+        }
+        .cnu_green{
+            color: green;
+            font-size: 15pt;
+
+        }
+        .cnu_blue{
+            color: blue;
+            font-size: 20pt;
+        }
+        .button{
+            font-size: 15pt;
+            background-color: blueviolet;
+            color: cadetblue;
+            border: 2px solid pink;
+            box-shadow: cyan 10px 54px 55p;
+        }
+    </style>
+</head>
+<body>
+    <span class= "name_cnu">cnu</span>
+    <span class = "cnu_green">cnu</span>
+    <span class = "cnu_blue">cnu</span>
+
+    <div>
+        <div class = "name_cnu">1</div>
+        <div class = "cnu_green">12</div>
+        <div class = "cnu_blue">123</div>
+    </div>
+
+    <button class = "button" onclick="onRegisterbuttonclick()">회원가입</button>
+
+    <script>
+        function onRegisterbuttonclick(){
+            tmp = document.querySelector(".button")
+            tmp.style.color = "white";
+            alert("버튼 정상 작동!")
+        }
+    </script>
+
+</body>
+</html>
